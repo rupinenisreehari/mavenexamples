@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0    http://maven.apache.org/xsd/maven-4.0.0.xsd">
+   <modelVersion>4.0.0</modelVersion>
+   <groupId>com.my.devops</groupId>
+   <artifactId>sample2-app</artifactId>
+   <version>1.0-SNAPSHOT</version>
+   <properties>
+      <maven.compiler.source>11</maven.compiler.source>
+      <maven.compiler.target>11</maven.compiler.target>
+   </properties>
+   <dependencies>
+      <dependency>
+         <groupId>com.qt.devops</groupId>
+         <artifactId>sample1-app</artifactId>
+         <version>1.0-SNAPSHOT</version>
+      </dependency>
+   </dependencies>
+   <repositories>
+      <repository>
+         <id>qt.libary1</id>
+         <url>http://download.internal.qt.com/maven2/library1</url>
+      </repository>
+      <repository>
+         <id>qt.libary2</id>
+         <url>http://download.internal.qt.com/maven2/library2</url>
+      </repository>
+   </repositories>
+</project>
