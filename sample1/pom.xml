@@ -9,5 +9,4 @@
       <maven.compiler.source>11</maven.compiler.source> #we are using java 11
       <maven.compiler.target>11</maven.compiler.target> #we are using java 11
    </properties>
-   </dependencies>
 </project>
